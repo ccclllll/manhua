@@ -1,3 +1,3 @@
 ## get start
-npm install 
+npm install  
 react-native link
