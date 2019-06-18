@@ -66,7 +66,8 @@ export default class BookDetail extends Component {
                 if(!books[cover.title+cover.author]){
                     let index = 0;
                     let readTime = new Date().getTime();
-                    books[cover.title+cover.author] = {cover,index,readTime};
+                    let readLine = 0;
+                    books[cover.title+cover.author] = {cover,index,readTime,readLine};
                     AsyncStorage.setItem('books',JSON.stringify(books));
                 }
             }
