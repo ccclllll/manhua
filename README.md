@@ -7,3 +7,4 @@ app： 前端app，react native
 2. npm install
 3. react-native link
 4. react-native run-android
+# run server
