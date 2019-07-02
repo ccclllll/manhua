@@ -83,9 +83,9 @@ public class BookResource {
         int lineNums  = 18; // 每行字数
         int lineCount = 0;
         int maxLineCount = 16;
-
-        lineNums = lineNums / (size/18);
-        maxLineCount = maxLineCount / (size/18);
+        
+        lineNums = (18 * 18) / size;
+        maxLineCount = (16 * 18) / size;
         while (index<content.length) {
             String con = content[index];
 
